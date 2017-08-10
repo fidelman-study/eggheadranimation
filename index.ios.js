@@ -9,6 +9,6 @@ import { AppRegistry } from 'react-native';
 import AnimatedBasic from './components/AnimatedBasic';
 import AnimatedScale from './components/AnimatedScale';
 import AnimatedPan from './components/AnimatedPan';
+import AnimatedColor from './components/AnimatedColor';
 
-
-AppRegistry.registerComponent('eggheadanimation', () => AnimatedPan);
+AppRegistry.registerComponent('eggheadanimation', () => AnimatedColor);
