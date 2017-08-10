@@ -3,7 +3,7 @@ import {
   View,
   StyleSheet,
   Animated,
-  Easing
+  Easing,
 } from 'react-native';
 
 class AnimatedBasic extends Component {

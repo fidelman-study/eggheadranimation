@@ -5,7 +5,9 @@
  */
 import React from 'react';
 import { AppRegistry } from 'react-native';
+/* components */
 import AnimatedBasic from './components/AnimatedBasic';
+import AnimatedScale from './components/AnimatedScale';
 
 
-AppRegistry.registerComponent('eggheadanimation', () => AnimatedBasic);
+AppRegistry.registerComponent('eggheadanimation', () => AnimatedScale);
