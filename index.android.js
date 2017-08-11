@@ -13,5 +13,6 @@ import AnimatedColor from './components/AnimatedColor';
 import AnimatedRotation from './components/AnimatedRotation';
 import AnimatedSequence from './components/AnimatedSequence';
 import AnimatedStagger from './components/AnimatedStagger';
+import AnimatedParallel from './components/AnimatedParallel';
 
-AppRegistry.registerComponent('eggheadanimation', () => AnimatedStagger);
+AppRegistry.registerComponent('eggheadanimation', () => AnimatedParallel);
