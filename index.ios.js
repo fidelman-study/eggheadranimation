@@ -11,6 +11,9 @@ import AnimatedScale from './components/AnimatedScale';
 import AnimatedPan from './components/AnimatedPan';
 import AnimatedColor from './components/AnimatedColor';
 import AnimatedRotation from './components/AnimatedRotation';
-import AnimatedSequence from './components/AnimatedRotation';
+import AnimatedSequence from './components/AnimatedSequence';
+import AnimatedStagger from './components/AnimatedStagger';
+import AnimatedParallel from './components/AnimatedParallel';
+import AnimatedFlip from './components/AnimatedFlip';
 
-AppRegistry.registerComponent('eggheadanimation', () => AnimatedSequence);
+AppRegistry.registerComponent('eggheadanimation', () => AnimatedFlip);
